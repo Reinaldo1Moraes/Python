@@ -1,0 +1,12 @@
+times = ('Botafogo', 'Palmeiras', 'Fortaleza', 'Internacional', 'Flamengo', 'São Paulo', 'Cruzeiro', 'Bahia', 'Corinthians', 'Vitória', 'Vasco', 'Juventude', 'Grêmio', 'Fluminense', 'AtléticoMG', 'RB Bragantino')
+print('=' * 15)
+print(f'Lista de times do BRASILEIRÃO: {times}')
+print('=' * 15)
+print(f'Os 5 primeiros times são {times[0:5]}')
+print('=' * 15)
+print(f'Os 4 ultimos São: {times[-4:]}')
+print('=' * 15)
+print(f'Times em ordem alfabetica: {sorted(times)}')
+print('=' * 15)
+print(f'O vasco está na {times.index('Vasco')+1} posição')
+
